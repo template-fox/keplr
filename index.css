@@ -44,7 +44,6 @@ input {
     @apply flex-grow p-2 text-gray-700 outline-none;
 }
 
-
 button.theme {
     @apply bg-theme text-white rounded-full hover:bg-lighter hover:text-theme px-8 p-2;
 }
@@ -65,7 +64,6 @@ section > div{
     @apply bg-lightest text-focused px-8 py-4 rounded-lg w-full hover:bg-theme scale-100 hover:scale-125 hover:text-background hover:shadow-xl cursor-pointer transition transition-all;
 }
 
-
 .thumb.active {
     @apply bg-theme text-background px-8 py-4 rounded-lg;
 }
@@ -85,7 +83,6 @@ section > div{
 .menu ul {
     @apply flex max-w-lg  flex-wrap justify-around
 }
-
 
 .menu ul li{
     @apply px-4
